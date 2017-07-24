@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+    color: black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*padding-right: 50px;*/
+
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+h5 {
+    font-size: 0.6em;
+}
+
+
+/*Mobile*/
+
+a:visited{
+    color: white;
+    
+}
+.mynav {
+    font-family: 'Muli', sans-serif;
+    /*max-height: 50px;*/
+    padding-bottom: 0px;
+    padding-top: 0px;
+
+}
+
+.navbar-toggler .navbar-toggler-left {
+    margin-top: 5px;
+}
+
+.jbgimg {
+    background: url("http://lumin8media.com/wp-content/uploads/2014/12/coding-screen-1280x500.jpg");
+    -webkit-filter: blur(4px)grayscale(95%)drop-shadow(8px 8px 10px black)opacity(50%);
+    filter: blur(8px)grayscale(100%);
+    width: inherit;
+    height: inherit;
+    /*z-index: -100;*/
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+    background-blend-mode: exclusion;
+}
+
+.imgbg {
+    background-color: black;
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    z-index: -100;
+}
+
+.push {
+    /*margin-top: 54px;*/
+    height: 50vh;
+}
+
+.first-section {}
+
+.leftText {
+    width: 90vw;
+    margin: 5vh auto;
+    border-bottom: 1px solid white;
+
+    text-align: center;
+    color: white;
+
+    font-size: 1.3em;
+
+    padding-top: 8vh;
+    padding-right: 8vw;
+    padding-left: 4vw;
+    font-family: 'Muli', sans-serif;
+    font-size: 1.2em;
+
+}
+
+.leftText span {
+    display: block;
+}
+
+.starter {
+    width: 100vw;
+    height: 100vh;
+    /*max-height: 100vh;*/
+}
+
+.navbar-brand {
+    text-align: left;
+    float: left;
+}
+
+.mapa {
+    min-width: 100px;
+    max-width: 30vw;
+    max-height: 50vh;
+    min-height: 100px;
+    -webkit-filter: grayscale(35%);
+    filter: grayscale(50%);
+    border: 1px solid #fff;
+    margin-top: 5vh;
+    margin-left: 33vw;
+
+}
+
+.section-front {
+    background-color: white;
+    z-index: 100;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.cv-title i {
+    border: 1px solid black;
+    border-radius: 120px;
+    padding: 30px;
+
+}
+.cont{
+  margin: 0 auto;
+  /*border: 2px solid black;*/
+}
+.cv-section {
+    margin-top: 10vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin: auto;
+    /*margin-left: 10vw;*/
+    border-top: 1px solid black;
+    /*margin-right: 10vw;*/
+    /*margin: 5vh 10vh 5vh 10vh;*/
+    width: 70vw;
+}
+
+.cv-title {
+    margin-bottom: 5vh;
+    font-size: 2em;
+    text-align: center;
+
+}
+.lala .cv-title{
+  padding-top: 7%;
+}
+.cont .cv-title{
+  padding-top: 33%;
+}
+.cv-headline {
+    font-size: 1.5em;
+}
+
+.cv-description {
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(70, 70, 70);
+}
+
+.subtitle {
+    font-size: 0.6em;
+}
+
+.spacer {
+    height: 10vh;
+    content: "  ";
+}
+
+.img-container {
+    width: 90vw;
+    margin: 0 auto;
+}
+.img-container img{
+  max-width: 35vw;
+  margin: 5vh 1vw 5vh 2vw;
+}
+
+.imgbox {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 8px 8px 5px rgb(33, 33, 33);
+    margin: 10px 0 10px 0;
+}
+
+footer {
+    background-color: #292b2c;
+    color: white;
+
+}
+
+.ftitle {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+}
+
+#fb, #ln {
+    width: 200px;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px auto;
+}
+
+#fb {
+    background: #3b5998;
+    cursor: pointer;
+}
+#fb:hover{
+  background: #657eb3;
+}
+#ln {
+    background: #0e76a8;
+
+}
+#ln:hover{
+  background: #439cc7;
+  cursor: pointer;
+}
+
+.ftitle li {
+
+    margin-left: -40px;
+}
+
+.footercpr{
+    border: 1px solid #fff;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+
+
+
+
+/*Tablet*/
+
+
+
+
+/*PCs*/
+
+@media (min-width: 768px) {
+    .mynav {
+        font-family: 'Muli', sans-serif;
+        /*max-height: 50px;*/
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .jbgimg {
+        background: url("http://lumin8media.com/wp-content/uploads/2014/12/coding-screen-1280x500.jpg");
+        -webkit-filter: blur(4px)grayscale(95%)drop-shadow(8px 8px 10px black)opacity(50%);
+        filter: blur(8px)grayscale(100%);
+        width: inherit;
+        height: inherit;
+        /*z-index: -100;*/
+        background-repeat: no-repeat;
+        /*background-position: center;*/
+        background-size: cover;
+        background-blend-mode: exclusion;
+    }
+
+    .push {
+        /*margin-top: 54px;*/
+        height: 50vh;
+    }
+    .first-section {}
+    .leftText {
+        /*padding-top: 4em;*/
+        margin-top: 18vh;
+        border-right: 1px solid white;
+        border-bottom: 0px;
+        /*max-width: 65%;*/
+        /*height: 14em;*/
+        text-align: right;
+        color: white;
+        /*padding-right: 5em;*/
+        font-size: 1.3em;
+        float: right;
+        height: 70vh;
+        padding-top: 21vh;
+        padding-right: 5vw;
+        font-family: 'Muli', sans-serif;
+        font-size: 1.5em;
+        display: block;
+    }
+    .starter {
+        width: 100vw;
+        height: 100vh;
+        /*max-height: 100vh;*/
+    }
+    .mapa {
+        min-width: 150px;
+        max-width: 25vw;
+        max-height: 50vh;
+        min-height: 150px;
+        -webkit-filter: grayscale(35%);
+        filter: grayscale(50%);
+        border: 1px solid #fff;
+        margin-top: 28vh;
+        margin-left: 3vw;
+    }
+    .img-container{
+
+    }
+    .img-container img{
+      max-width: 35vw;
+      margin: 5vh 0vw 5vh 0vw;
+    }
+    .cv-headline{
+      /*display: inline;*/
+      text-align: center;
+    }
+    .cv-section{
+      border-top: 0px;
+      max-width: 100%;
+    }
+    .border-left-right{
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      padding-left: 20px;
+      height: 200px;
+    }
+    .bordercheck{
+      border: 1px solid black;
+
+    }
+
+    .center{
+      text-align: center;
+      margin: 0 auto;
+    }
+    .textcv{
+      text-align: center;
+    }
+    .pushit{
+
+      padding-top: 50px;
+    }
+
+}
